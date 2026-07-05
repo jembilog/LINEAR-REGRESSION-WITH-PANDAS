@@ -81,3 +81,23 @@ for actual, predicted in zip(Y, Y_pred):
 
 print("\n====== PREDICTED GENERATED POWER ======")
 print(f"Predicted Generated Power: {new_output:.2f} Watts")
+
+#plotting
+plt.figure(figsize=(10, 6))
+plt.plot(losses, label='Loss (MSE)', color='blue')
+plt.title('Loss over Epochs')
+plt.xlabel('Epochs')
+plt.ylabel('Mean Squared Error')
+plt.legend()
+plt.show()
+
+#plotting actual vs predicted
+plt.figure(figsize=(10, 6))
+plt.scatter(range(len(Y)), Y, label='Actual', color='blue', alpha=0.6)
+plt.scatter(range(len(Y_pred)), Y_pred, label='Predicted', color='orange',
+    alpha=0.6)
+plt.title('Actual vs Predicted Generated Power')
+plt.xlabel('Sample Index')
+plt.ylabel('Generated Power (Watts)')
+plt.legend()
+plt.show()
