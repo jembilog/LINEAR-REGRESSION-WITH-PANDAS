@@ -1,0 +1,31 @@
+Age,Experience,Education,JobRole,Salary
+22,1,Bachelor,Developer,32000
+23,1,Bachelor,Analyst,31000
+24,2,Bachelor,Developer,36000
+25,3,Master,Developer,43000
+26,4,Master,Developer,47000
+27,5,Master,Manager,56000
+28,5,Bachelor,Developer,50000
+29,6,Master,Manager,60000
+30,7,Master,Manager,65000
+31,8,Master,Manager,70000
+32,9,Master,Manager,74000
+33,10,Master,Manager,78000
+24,2,High School,Analyst,29000
+26,3,Bachelor,Analyst,37000
+28,4,Bachelor,Developer,45000
+30,6,Master,Developer,58000
+35,12,Master,Manager,85000
+40,15,Master,Manager,95000
+45,18,Master,Manager,105000
+50,22,Master,Manager,120000
+21,0,High School,Analyst,27000
+23,1,High School,Developer,30000
+27,5,Bachelor,Analyst,48000
+34,11,Master,Developer,80000
+38,14,Master,Manager,92000
+42,17,Master,Manager,101000
+48,20,Master,Manager,115000
+36,13,Bachelor,Developer,87000
+29,7,Bachelor,Analyst,62000
+31,8,Master,Developer,69000
